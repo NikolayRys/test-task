@@ -1,7 +1,24 @@
-# backend-challenge-NikolayRys
+# README
 
-- Build an API server with one of the following languages: Python, Go, Ruby on Rails, JS.
-- The API server has to have a token based authentication.
-- The API server only needs to have one endpoint that receives an array of URLs. Each of these URLs contain an image.
-- The URLs need to be stored.
-- The server should have a background process that takes the stored URLs, downloads and processes the binaries (reading the MIME type is sufficient for now).
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
