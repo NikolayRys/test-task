@@ -35,6 +35,15 @@ gem 'delayed_job_active_record'
 group :development, :test do
   # Classical debugging tool
   gem "pry"
+
+  # Test framework
+  gem "rspec-rails"
+
+  # Database reset tool
+  gem "database_cleaner"
+
+  # Test data generator
+  gem "factory_bot_rails"
 end
 
 group :development do
