@@ -23,6 +23,12 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 gem "image_processing", "~> 1.2"
 
+# JWT for API token authentication
+gem 'jwt'
+
+# Password hashing
+gem 'bcrypt'
+
 group :development, :test do
   # Classical debugging tool
   gem "pry"
