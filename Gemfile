@@ -29,6 +29,9 @@ gem 'jwt'
 # Password hashing
 gem 'bcrypt'
 
+# Simple backgroup processing option
+gem 'delayed_job_active_record'
+
 group :development, :test do
   # Classical debugging tool
   gem "pry"
