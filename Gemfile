@@ -32,9 +32,6 @@ gem "bcrypt"
 # Simple background processing
 gem "delayed_job_active_record"
 
-# To extract mime types
-gem "ruby-filemagic"
-
 # Simpler requests
 gem "httparty"
 
