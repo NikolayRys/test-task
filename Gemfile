@@ -24,13 +24,16 @@ gem "bootsnap", require: false
 gem "image_processing", "~> 1.2"
 
 # JWT for API token authentication
-gem 'jwt'
+gem "jwt"
 
 # Password hashing, required for has_secure_password
-gem 'bcrypt'
+gem "bcrypt"
 
 # Simple backgroup processing option
-gem 'delayed_job_active_record'
+gem "delayed_job_active_record"
+
+# To extract mime types
+gem "ruby-filemagic"
 
 group :development, :test do
   # Classical debugging tool
