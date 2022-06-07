@@ -26,7 +26,7 @@ gem "image_processing", "~> 1.2"
 # JWT for API token authentication
 gem 'jwt'
 
-# Password hashing
+# Password hashing, required for has_secure_password
 gem 'bcrypt'
 
 # Simple backgroup processing option
