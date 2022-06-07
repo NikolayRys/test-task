@@ -49,12 +49,7 @@ RSpec.configure do |config|
   # is tagged with `:focus`, all examples get run. RSpec also provides
   # aliases for `it`, `describe`, and `context` that include `:focus`
   # metadata: `fit`, `fdescribe` and `fcontext`, respectively.
-  config.filter_run_when_matching :focus
-
-  # Limits the available syntax to the non-monkey patched syntax that is
-  # recommended. For more details, see:
-  # https://relishapp.com/rspec/rspec-core/docs/configuration/zero-monkey-patching-mode
-  config.disable_monkey_patching!
+  #config.filter_run_when_matching :focus
 
   # Allows RSpec to persist some state between runs in order to support
   # the `--only-failures` and `--next-failure` CLI options. We recommend
@@ -80,6 +75,11 @@ RSpec.configure do |config|
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
 =begin
+  # Limits the available syntax to the non-monkey patched syntax that is
+  # recommended. For more details, see:
+  # https://relishapp.com/rspec/rspec-core/docs/configuration/zero-monkey-patching-mode
+  config.disable_monkey_patching!
+
   # Print the 10 slowest examples and example groups at the
   # end of the spec run, to help surface which specs are running
   # particularly slow.
