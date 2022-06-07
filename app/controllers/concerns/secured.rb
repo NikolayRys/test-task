@@ -1,8 +1,12 @@
-class SecuredController < ApplicationController
-  before_action :authenticate!
+module Secured
+  extend ActiveSupport::Concern
 
-  # We're not really using it, but it's a good example of what is usually done
-  attr_reader :current_user
+  included do
+    before_action :authenticate!
+
+    # We're not really using it, but it's a good example of what is usually done
+    attr_reader :current_user
+  end
 
   private
 
