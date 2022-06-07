@@ -5,6 +5,7 @@ class SecuredController < ApplicationController
   attr_reader :current_user
 
   private
+
   def authenticate!
     @current_user = User.find(auth_token[:user_id])
   rescue TokenError, ActiveRecord::RecordNotFound
