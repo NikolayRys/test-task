@@ -29,7 +29,7 @@ gem "jwt"
 # Password hashing, required for has_secure_password
 gem "bcrypt"
 
-# Simple backgroup processing option
+# Simple background processing
 gem "delayed_job_active_record"
 
 # To extract mime types
