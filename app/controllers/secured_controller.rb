@@ -1,7 +1,7 @@
 class SecuredController < ApplicationController
   before_action :authenticate!
 
-  # We're not really relying on current_user, but it's a good example of what is usually done
+  # We're not really using it, but it's a good example of what is usually done
   attr_reader :current_user
 
   private
