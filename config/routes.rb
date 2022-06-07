@@ -6,6 +6,5 @@ Rails.application.routes.draw do
       post :login
     end
   end
-
-  resources :urls, only: [:create]
+  post 'upload', to: 'images#upload'
 end
