@@ -66,6 +66,9 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
 
+  # Wire up FactoryBot
+  config.include FactoryBot::Syntax::Methods
+
   # DB reset between examples
   config.before(:each) do
     DatabaseCleaner.clean
