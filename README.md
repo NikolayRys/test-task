@@ -32,3 +32,29 @@ For example, if I had more time, or this would be a real-world product, I would 
 - Consider rate limiting to not let use the API as a DOS attack machine
 
 ## Important files
+### Migrations
+  - db/migrate/20180502212051_create_users.rb
+  - db/migrate/20180502212051_create_images.rb
+
+### Models
+  - app/models/user.rb
+  - app/models/image.rb
+
+### Controllers
+  - app/controllers/images_controller.rb
+  - app/controllers/users_controller.rb
+  - app/controllers/concerns/secured.rb
+
+### Jobs
+  - app/jobs/scrape_job.rb
+
+### Lib
+  - app/lib/token_service.rb
+
+### Spec
+  - spec/lib/token_service_spec.rb
+  - spec/jobs/scrape_job_spec.rb
+  - spec/models/image_spec.rb
+  - spec/models/user_spec.rb
+  - spec/requests/images_controller_spec.rb
+  - spec/requests/users_controller_spec.rb
