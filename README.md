@@ -1,4 +1,4 @@
-# Nikolay Rys' test task for Voima
+# Nikolay Rys' test task
 ## Requirements
 
 - Build an API server with one of the following languages: Python, Go, Ruby on Rails, JS.
